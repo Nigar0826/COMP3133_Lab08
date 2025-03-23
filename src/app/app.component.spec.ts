@@ -1,3 +1,4 @@
+// Unit tests for AppComponent to verify app creation, title property, and title rendering in the DOM.
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 

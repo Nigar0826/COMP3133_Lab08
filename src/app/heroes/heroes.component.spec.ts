@@ -1,3 +1,4 @@
+// Unit test to verify that the HeroesComponent is created successfully
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { HeroesComponent } from './heroes.component';

@@ -1,3 +1,4 @@
+// Unit test to verify that the InputFormatDirective instance is created successfully.
 import { ElementRef } from '@angular/core';
 import { InputFormatDirective } from './input-format.directive';
 

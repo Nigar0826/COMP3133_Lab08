@@ -1,3 +1,4 @@
+// Unit test to check if RemoveSpacesPipe is created successfully.
 import { RemoveSpacesPipe } from './remove-spaces.pipe';
 
 describe('RemoveSpacesPipe', () => {

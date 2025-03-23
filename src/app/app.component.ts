@@ -1,3 +1,4 @@
+// Root component that sets the application title and includes the HeroesComponent.
 import { Component } from '@angular/core';
 import { HeroesComponent } from './heroes/heroes.component';
 

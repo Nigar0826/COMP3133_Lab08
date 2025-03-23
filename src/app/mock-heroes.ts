@@ -1,3 +1,4 @@
+// Mock data: predefined list of hero objects used for testing and display.
 import { Hero } from './hero';
 
 export const HEROES: Hero[] = [

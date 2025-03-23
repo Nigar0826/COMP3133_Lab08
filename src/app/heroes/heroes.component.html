@@ -1,3 +1,4 @@
+<!-- Displays a list of heroes and shows selected hero details using HeroDetailComponent -->
 <h2>My Heroes</h2>
 <ul class="heroes">
   <li *ngFor="let hero of heroes">
@@ -8,11 +9,4 @@
   </li>
 </ul>
 
-<div *ngIf="selectedHero">
-  <h2>{{ selectedHero.name | removeSpaces | uppercase }} Details</h2>
-  <div>id: {{ selectedHero.id }}</div>
-  <div>
-    <label for="hero-name">Hero name: </label>
-    <input id="hero-name" [(ngModel)]="selectedHero.name" placeholder="name" appInputFormat>
-  </div>
-</div>
+<app-hero-detail [hero]="selectedHero"></app-hero-detail>

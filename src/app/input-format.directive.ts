@@ -1,3 +1,4 @@
+// Custom directive that formats input text to uppercase when the input field loses focus.
 import { Directive, HostListener, ElementRef } from '@angular/core';
 
 @Directive({

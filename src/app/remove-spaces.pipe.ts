@@ -1,3 +1,4 @@
+// Custom pipe to remove hyphens from a string (e.g., 'Green-Lantern' → 'GreenLantern').
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
